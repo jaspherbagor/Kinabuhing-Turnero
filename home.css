@@ -19,18 +19,45 @@
     --navbar-bg: #272d33;
     --text-color-dark: #151515;
     --footer-bg: #1c2025;
-
     --font-family: 'Montserrat', sans-serif;
-    --h1-fw:800;
-    --h2-fw:600;
-    --h3-fw:400;
-    --h4-fw:300;
-    --p-fw:200;
+    --footer-fs:10px;
 }
 
+/* Header Start */
+.navbar {
+    background:var(--navbar-bg)
+}
+
+.navbar-nav a {
+    color:var(--text-color-light)
+}
+
+.navbar-nav a:hover {
+    color:var(--primary-color);
+}
 
 .navbar-brand img {
     height:50px;
     border-radius: 5px;
-    border:2px solid orange
+    border:2px solid var(--primary-color)
 }
+/* Header End */
+
+/* Contact Section Start */
+.contact {
+    background: var(--navbar-bg);
+}
+
+.contact p {
+    color:var(--primary-color)
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer-section {
+    background:var(--footer-bg)
+}
+.footer-section p {
+    font-size:var(--footer-fs)
+}
+/* Footer Section End */
