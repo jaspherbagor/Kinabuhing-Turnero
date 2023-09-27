@@ -21,6 +21,8 @@
     --footer-bg: #1c2025;
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
+    --bg-smt1:rgba(252,90,10, 0.8);
+    --bg-smt2:rgba(39,45,51, 0.8);
 }
 
 /* Header Start */
@@ -37,12 +39,29 @@
 }
 
 .navbar-brand img {
-    height:50px;
+    height:55px;
     border-radius: 5px;
     border:2px solid var(--primary-color)
 }
 /* Header End */
 
+/* Hero Section Start */
+.hero-section {
+    background: url('./machine-img-1.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.hero-text {
+    background: var(--bg-smt1)
+}
+/* Hero Section End */
+
+div.services-categories-items {
+    width:45%;
+    height:auto
+}
 
 
 
