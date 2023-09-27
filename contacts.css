@@ -1,2 +1,75 @@
-/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+    font-family:var(--font-family);
+    word-wrap: break-word;
+}
+
+:root {
+    --primary-color:#fc5a0a;
+    --text-color-light: #ffffff;
+    --navbar-bg: #272d33;
+    --text-color-dark: #151515;
+    --footer-bg: #1c2025;
+    --font-family: 'Montserrat', sans-serif;
+    --footer-fs:10px;
+}
+
+/* Header Start */
+.navbar {
+    background:var(--navbar-bg)
+}
+
+.navbar-nav a {
+    color:var(--text-color-light)
+}
+
+.navbar-nav a:hover {
+    color:var(--primary-color);
+}
+
+.navbar-brand img {
+    height:50px;
+    border-radius: 5px;
+    border:2px solid var(--primary-color)
+}
+/* Header End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Section Start */
+.contact {
+    background: var(--navbar-bg);
+}
+
+.contact p {
+    color:var(--primary-color)
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer-section {
+    background:var(--footer-bg)
+}
+.footer-section p {
+    font-size:var(--footer-fs)
+}
+/* Footer Section End */
