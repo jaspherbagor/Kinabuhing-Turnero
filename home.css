@@ -63,6 +63,18 @@ h2, h1 {
 .hero-text {
     background: var(--bg-semi-trans2)
 }
+
+button.contact-us-btn {
+    background:var(--navbar-bg);
+    border-radius:10px;
+    border: 1.5px solid var(--primary-color);
+}
+
+button.contact-us-btn:hover {
+    background: var(--primary-color);
+    transform:scale(1.05);
+    border: 1.5px solid var(--navbar-bg);
+}
 /* Hero Section End */
 
 /* Services Quality Section Start */
@@ -83,12 +95,14 @@ h2, h1 {
 
 button.see-more-btn {
     background:var(--navbar-bg);
-    border-radius:10px
+    border-radius:10px;
+    border: 1.5px solid var(--primary-color);
 }
 
 button.see-more-btn:hover {
     background: var(--primary-color);
-    transform:scale(1.05)
+    transform:scale(1.05);
+    border: 1.5px solid var(--navbar-bg);
 }
 .card-body {
     background: var(--primary-color);
