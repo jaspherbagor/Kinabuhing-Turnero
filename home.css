@@ -111,7 +111,14 @@ button.see-more-btn:hover {
 
 /* Clients Reviews Section Start */
 .clients-reviews-section {
-    background:var(--bg-semi-trans2)
+    background:url('./review-bg1.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.carousel {
+    background: var(--bg-semi-trans2)
 }
 
 .clients-reviews-section h2, .carousel-text i, .carousel-text h5 {
