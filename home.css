@@ -22,8 +22,8 @@
     --button-hover: #be4406;
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
-    --bg-smt1:rgba(252,90,10, 0.8);
-    --bg-smt2:rgba(39,45,51, 0.8);
+    --bg-semi-trans1:rgba(252,90,10, 0.6);
+    --bg-semi-trans2:rgba(39,45,51, 0.7);
 }
 
 /* Header Start */
@@ -55,7 +55,7 @@
 }
 
 .hero-text {
-    background: var(--bg-smt2)
+    background: var(--bg-semi-trans2)
 }
 /* Hero Section End */
 
@@ -66,13 +66,13 @@
 /* Services Quality Section End */
 
 /* Services Items Section Start */
-.services-items-section h2 span {
+.services-items-section h2 {
     color:var(--primary-color)
 }
 
 .services-items:hover {
     transform:scale(1.05);
-    box-shadow: 10px 10px 5px var(--bg-smt2);
+    box-shadow:5px 5px 5px 5px var(--bg-semi-trans2);
 }
 
 button.see-more-btn {
@@ -81,15 +81,27 @@ button.see-more-btn {
 }
 
 button.see-more-btn:hover {
-    background: var(--button-hover);
+    background: var(--primary-color);
     transform:scale(1.05)
 }
 .card-body {
-    background: var(--bg-smt1);
+    background: var(--primary-color);
 }
-
 /* Services Items Section End */
 
+/* Clients Reviews Section Start */
+.clients-reviews-section {
+    background:var(--bg-semi-trans2)
+}
+
+.clients-reviews-section h2, .carousel-text i, .carousel-text h5 {
+    color:var(--primary-color)
+}
+
+.carousel-text i {
+    font-size:80px;
+}
+/* Clients Reviews Section End */
 
 
 
