@@ -58,11 +58,11 @@
 }
 /* Hero Section End */
 
-div.services-categories-items {
-    width:46.5%;
-    height:auto
+/* Services Quality Section Start */
+.services-quality-section {
+    background: var(--primary-color);
 }
-
+/* Services Quality Section End */
 
 
 
