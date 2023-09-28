@@ -66,7 +66,9 @@ h2, h1 {
 /* How We Operate Section End */
 
 /* Company History Section Start */
-
+.company-history-head h2, .company-history-section h3, .company-history-section p strong {
+    color:var(--primary-color)
+}
 /* Company History Section End */
 
 
