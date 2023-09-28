@@ -19,6 +19,7 @@
     --navbar-bg: #272d33;
     --text-color-dark: #151515;
     --footer-bg: #1c2025;
+    --button-hover: #be4406;
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
     --bg-smt1:rgba(252,90,10, 0.8);
@@ -54,7 +55,7 @@
 }
 
 .hero-text {
-    background: var(--bg-smt1)
+    background: var(--bg-smt2)
 }
 /* Hero Section End */
 
@@ -64,6 +65,30 @@
 }
 /* Services Quality Section End */
 
+/* Services Items Section Start */
+.services-items-section h2 span {
+    color:var(--primary-color)
+}
+
+.services-items:hover {
+    transform:scale(1.05);
+    box-shadow: 10px 10px 5px var(--bg-smt2);
+}
+
+button.see-more-btn {
+    background:var(--navbar-bg);
+    border-radius:10px
+}
+
+button.see-more-btn:hover {
+    background: var(--button-hover);
+    transform:scale(1.05)
+}
+.card-body {
+    background: var(--bg-smt1);
+}
+
+/* Services Items Section End */
 
 
 
