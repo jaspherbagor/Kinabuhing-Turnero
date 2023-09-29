@@ -72,7 +72,9 @@ h2, h1 {
 /* Company History Section End */
 
 /* Mission and Values Section Start */
-
+.mission-and-values-section h2, .mission-and-values-section h3, .mission-and-values-section p strong {
+    color:var(--primary-color)
+}
 /* Mission and Values Section End */
 
 
