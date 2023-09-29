@@ -32,6 +32,11 @@ h2, h1 {
     letter-spacing: 5px;
 }
 
+/* Paragraph Line Height */
+p {
+    line-height: 30px;
+}
+
 /* Header Start */
 .navbar {
     background:var(--navbar-bg)
