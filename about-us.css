@@ -19,6 +19,7 @@
     --navbar-bg: #272d33;
     --text-color-dark: #151515;
     --footer-bg: #1c2025;
+    --bg-semi-trans2:rgba(39,45,51, 0.7);
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
 }
@@ -76,7 +77,24 @@ h2, h1 {
 }
 /* Mission and Values Section End */
 
+/* Work Team Section Start */
+.work-team-section {
+    background-image: url('./work-team1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center
+}
 
+.work-team-section h2, .work-team-section h3 {
+    color:var(--primary-color)
+}
+
+.card:hover {
+    transform:scale(1.05);
+    box-shadow:5px 5px 5px 5px var(--bg-semi-trans2);
+}
+
+/* Work Team Section End */
 
 /* Contact Section Start */
 .contact {
