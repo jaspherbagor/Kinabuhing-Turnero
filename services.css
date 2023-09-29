@@ -43,6 +43,14 @@
 }
 /* Header End */
 
+/* Services Section Start */
+.services-text-section {
+    background-image: url('./metal-bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+/* Services Secttion End */
 
 
 
