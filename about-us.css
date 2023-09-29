@@ -85,8 +85,12 @@ h2, h1 {
     background-position:center
 }
 
-.work-team-section h2, .work-team-section h3 {
+.work-team-section h2 {
     color:var(--primary-color)
+}
+
+.card-body {
+    background:var(--primary-color)
 }
 
 .card:hover {
