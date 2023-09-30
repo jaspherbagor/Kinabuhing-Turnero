@@ -67,6 +67,10 @@ p {
 .service-categories-section h2, .service-categories-section h3 {
     color: var(--primary-color)
 }
+
+.additional-services-list h3:hover {
+    background:var(--navbar-bg)
+}
 /* Service Categories Section Start */
 
 /* Services Quality Section Start */
