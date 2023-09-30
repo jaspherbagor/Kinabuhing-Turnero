@@ -19,6 +19,8 @@
     --navbar-bg: #272d33;
     --text-color-dark: #151515;
     --footer-bg: #1c2025;
+    --bg-semi-trans1:rgba(252,90,10, 0.6);
+    --bg-semi-trans2:rgba(39,45,51, 0.7);
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
 }
@@ -62,6 +64,9 @@ p {
     background-size:cover;
 }
 /* Services Section End */
+.service-categories-section h2, .service-categories-section h3 {
+    color: var(--primary-color)
+}
 
 /* Service Categories Section Start */
 
