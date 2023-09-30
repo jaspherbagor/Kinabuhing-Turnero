@@ -23,6 +23,17 @@
     --footer-fs:10px;
 }
 
+/* Heading 1 & Heading 2 Spacing */
+h1, h2 {
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+/* Paragraph Line Height */
+p {
+    line-height: 30px;
+}
+
 /* Header Start */
 .navbar {
     background:var(--navbar-bg)
