@@ -77,7 +77,10 @@ p {
 
 /* Call To Action Section Start */
 .call-to-action-section {
-    background:var(--primary-color)
+    background:url('./metal-bg1.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover
 }
 .lets-talk-btn {
     border:2px solid var(--text-color-light);
@@ -85,7 +88,7 @@ p {
 }
 
 .lets-talk-btn:hover {
-    transform:scale(1.2)
+    transform:scale(1.1)
 }
 /* Call to Action Section End */
 
