@@ -71,7 +71,7 @@ p {
 
 button.contact-us-btn {
     background:var(--navbar-bg);
-    border-radius:10px;
+    border-radius:3px;
     border: 1.5px solid var(--primary-color);
 }
 
@@ -100,7 +100,7 @@ button.contact-us-btn:hover {
 
 button.see-more-btn {
     background:var(--navbar-bg);
-    border-radius:10px;
+    border-radius:3px;
     border: 1.5px solid var(--primary-color);
 }
 

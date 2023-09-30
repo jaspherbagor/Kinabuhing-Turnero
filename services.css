@@ -67,9 +67,23 @@ p {
 .service-categories-section h2, .service-categories-section h3 {
     color: var(--primary-color)
 }
-
 /* Service Categories Section Start */
 
+/* Services Quality Section Start */
+.services-quality-section {
+    background: var(--navbar-bg);
+}
+/* Services Quality Section End */
+
+/* Call To Action Section Start */
+.call-to-action-section {
+    background:var(--primary-color)
+}
+.lets-talk-btn {
+    border:2px solid var(--text-color-light);
+    border-radius:3px
+}
+/* Call to Action Section End */
 
 
 
