@@ -83,6 +83,10 @@ p {
     border:2px solid var(--text-color-light);
     border-radius:3px
 }
+
+.lets-talk-btn:hover {
+    transform:scale(1.2)
+}
 /* Call to Action Section End */
 
 
