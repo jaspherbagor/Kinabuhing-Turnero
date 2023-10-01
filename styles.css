@@ -116,7 +116,7 @@ button.see-more-btn:hover {
 
 /* Clients Reviews Section Start */
 .clients-reviews-section {
-    background:url('');
+    background:url('./clients-review-bg.jpg');
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
