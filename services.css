@@ -58,7 +58,7 @@ p {
 
 /* Services Section Start */
 .services-text-section {
-    background-image: url('./call-to-action-bg.jpg');
+    background-image: url('./metal-bg.jpg');
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -81,7 +81,7 @@ p {
 
 /* Call To Action Section Start */
 .call-to-action-section {
-    background:url('./metal-bg1.jpg');
+    background:url('./call-to-action-bg.jpg');
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover
