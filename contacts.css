@@ -68,6 +68,11 @@ button[type=submit] {
     border: 1.5px solid var(--primary-color);
 }
 
+button[type=submit]:hover {
+    background: var(--primary-color);
+    transform:scale(1.1);
+    border: 1.5px solid var(--navbar-bg);
+}
 
 
 
