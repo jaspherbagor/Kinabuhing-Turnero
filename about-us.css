@@ -130,6 +130,10 @@ p {
 .contact p {
     color:var(--primary-color)
 }
+
+.social-icons a i:hover {
+    color:var(--primary-color)
+}
 /* Contact Section End */
 
 /* Footer Section Start */
