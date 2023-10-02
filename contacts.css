@@ -43,8 +43,23 @@
 }
 /* Header End */
 
+/* Contact Text Section Start */
+.contact-text-section {
+    background-image: url('./metal-bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+/* Contact Text Section End */
+
+
+input[type=text], input[type=email], input[type=tel], textarea.message-text-area {
+    border-radius:0px;
+    border:1.5px solid var(--primary-color)
+}
+
 textarea.message-text-area {
-    height:100px
+    height:150px
 }
 
 
