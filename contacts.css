@@ -52,10 +52,13 @@
 }
 /* Contact Text Section End */
 
+input[type=text], input[type=email], input[type=tel] {
+    height:60px
+}
 
 input[type=text], input[type=email], input[type=tel], textarea.message-text-area {
     border-radius:0px;
-    border:1.5px solid var(--primary-color)
+    border:1px solid var(--text-color-dark)
 }
 
 textarea.message-text-area {
