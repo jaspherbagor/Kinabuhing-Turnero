@@ -96,15 +96,6 @@ p {
 }
 /* Call to Action Section End */
 
-
-
-
-
-
-
-
-
-
 /* Contact Section Start */
 .contact {
     background: var(--navbar-bg);
@@ -121,5 +112,14 @@ p {
 }
 .footer-section p {
     font-size:var(--footer-fs)
+}
+.scroll-btn i {
+    position:fixed;
+    right:1.5rem;
+    bottom:0.8rem;
+    color:var(--text-color-light);
+    background:var(--primary-color);
+    border-radius:0.8rem;
+    opacity:0.8;
 }
 /* Footer Section End */
