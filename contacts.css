@@ -52,6 +52,7 @@
 }
 /* Contact Text Section End */
 
+/* Contact Form Start */
 input[type=text], input[type=email], input[type=tel] {
     height:60px
 }
@@ -76,15 +77,7 @@ button[type=submit]:hover {
     transform:scale(1.1);
     border: 1.5px solid var(--navbar-bg);
 }
-
-
-
-
-
-
-
-
-
+/* Contact Form End */
 
 /* Call To Action Section Start */
 .call-to-action-section {
