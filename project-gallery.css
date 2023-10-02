@@ -43,7 +43,14 @@
 }
 /* Header End */
 
-
+/* Project Gallery Text Section Start */
+.project-gallery-text {
+    background-image: url('./metal-bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+/* Project Gallery Section End */
 
 
 
