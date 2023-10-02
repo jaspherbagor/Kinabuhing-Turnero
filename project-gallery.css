@@ -52,6 +52,29 @@
 }
 /* Project Gallery Section End */
 
+/* Project Gallery Content Section Start */
+.project-gallery-content h2,
+.project-gallery-content h3 {
+    color:var(--primary-color)
+}
+
+.gallery-items img {
+    border: 2px solid var(--primary-color);
+}
+
+.gallery-items img {
+    border-bottom: none;
+}
+
+.gallery-items h3 {
+    background:var(--navbar-bg);
+    border:2px solid var(--primary-color)
+}
+
+.gallery-items:hover {
+    transform:scale(1.1)
+}
+/* Project Gallery Content Section End */
 
 
 
