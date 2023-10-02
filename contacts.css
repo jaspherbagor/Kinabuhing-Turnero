@@ -62,6 +62,13 @@ textarea.message-text-area {
     height:150px
 }
 
+button[type=submit] {
+    background:var(--navbar-bg);
+    border-radius:3px;
+    border: 1.5px solid var(--primary-color);
+}
+
+
 
 
 
