@@ -127,5 +127,13 @@ html, body {
 .footer-section p {
     font-size:var(--footer-fs)
 }
-
 /* Footer Section End */
+
+/* Back To Top Button Start */
+#back-to-top {
+    bottom: 20px;
+    right: 20px;
+    background:var(--primary-color);
+    opacity:0.7
+}
+/* Back To Top Button End */
