@@ -176,3 +176,11 @@ button.see-more-btn:hover {
     font-size:var(--footer-fs)
 }
 /* Footer Section End */
+
+/* Back To Top Button Start */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+/* Back To Top Button End */
