@@ -70,12 +70,12 @@ html, body {
 /* Contact Text Section End */
 
 /* Contact Form Start */
-input[type=text], input[type=email], input[type=tel] {
-    height:60px
+input[type=text], input[type=email], input[type=tel], input[type=number] {
+    height:50px
 }
 
-input[type=text], input[type=email], input[type=tel], textarea.message-text-area {
-    border-radius:0px;
+input[type=text], input[type=email], input[type=tel], input[type=number], textarea.message-text-area {
+    /* border-radius:0px; */
     border:1px solid var(--text-color-dark)
 }
 
