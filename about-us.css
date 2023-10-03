@@ -42,7 +42,8 @@ html, body {
 
 /* Header Start */
 .navbar {
-    background:var(--navbar-bg)
+    background:var(--navbar-bg);
+    z-index:1000
 }
 
 .navbar-nav a {
