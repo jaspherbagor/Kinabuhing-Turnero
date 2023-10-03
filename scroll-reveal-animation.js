@@ -2,7 +2,7 @@ const sr = ScrollReveal ({
     distance: '40px',
     duration:1250,
     delay:150,
-    reset:false,
+    reset:true,
 });
 
 // Home Page
