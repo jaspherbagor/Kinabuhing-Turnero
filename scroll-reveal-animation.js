@@ -15,11 +15,11 @@ sr.reveal('.services-quality-items:nth-child(1), .services-items:nth-child(1), .
 sr.reveal('.services-quality-items:nth-child(3), .services-items:nth-child(2), .services-items:nth-child(4), .contact-map-right', {origin:'right'});
 
 // About Us Page
-sr.reveal('.how-we-operate-section h2, .company-history-head', {origin:'top'});
+sr.reveal('.how-we-operate-section h2, .company-history-head, .work-team-section h2, .mission-and-values-head', {origin:'top'});
 
 sr.reveal('', {origin:'bottom'});
 
-sr.reveal('div.how-we-operate-text', {origin:'left'});
+sr.reveal('div.how-we-operate-text, .company-history-row-left:nth-child(1), .company-history-row-right:nth-child(1), .work-team-items:nth-child(1), .work-team-items:nth-child(3) ', {origin:'left'});
 
-sr.reveal('div.how-we-operate-img', {origin:'right'})
+sr.reveal('div.how-we-operate-img, .company-history-row-right:nth-child(2), .company-history-row-left:nth-child(2), .work-team-items:nth-child(2), .work-team-items:nth-child(4)', {origin:'right'});
 
