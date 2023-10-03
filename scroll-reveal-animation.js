@@ -2,7 +2,7 @@ const sr = ScrollReveal ({
     distance: '40px',
     duration:1250,
     delay:150,
-    reset:true
+    reset:false,
 });
 
 // Home Page
@@ -68,3 +68,21 @@ sr.reveal(
     {origin:'right'}
 );
 
+// Project Gallery Page
+sr.reveal(
+    '.project-gallery-items h2',
+
+    {origin:'top'}
+);
+
+sr.reveal(
+    '.gallery-items:nth-child(1), .gallery-items:nth-child(4), .gallery-items:nth-child(7), .gallery-items:nth-child(9)',
+    
+    {origin:'left'}
+);
+
+sr.reveal(
+    '.gallery-items:nth-child(3), .gallery-items:nth-child(6), .gallery-items:nth-child(9), .gallery-items:nth-child(12)',
+    
+    {origin:'right'}
+);

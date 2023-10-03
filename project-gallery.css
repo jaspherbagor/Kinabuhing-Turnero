@@ -87,10 +87,6 @@ html, body {
     background:var(--navbar-bg);
     border:2px solid var(--primary-color)
 }
-
-.gallery-items:hover {
-    transform:scale(1.05)
-}
 /* Project Gallery Content Section End */
 
 /* Call To Action Section Start */
