@@ -15,11 +15,11 @@ sr.reveal('.services-quality-items:nth-child(1), .services-items:nth-child(1), .
 sr.reveal('.services-quality-items:nth-child(3), .services-items:nth-child(2), .services-items:nth-child(4), .contact-map-right', {origin:'right'});
 
 // About Us Page
-sr.reveal('', {origin:'top'});
+sr.reveal('.how-we-operate-section h2, .company-history-head', {origin:'top'});
 
 sr.reveal('', {origin:'bottom'});
 
-sr.reveal('', {origin:'left'});
+sr.reveal('div.how-we-operate-text', {origin:'left'});
 
-sr.reveal('', {origin:'right'})
+sr.reveal('div.how-we-operate-img', {origin:'right'})
 
