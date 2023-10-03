@@ -14,7 +14,7 @@ sr.reveal(
 );
 
 sr.reveal(
-    '.services-quality-items:nth-child(2), .services-items:nth-child(5), .carousel-item',
+    '.services-quality-items:nth-child(2), .services-items:nth-child(5)',
 
     {origin:'bottom'}
 
