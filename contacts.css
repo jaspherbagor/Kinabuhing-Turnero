@@ -96,23 +96,6 @@ button[type=submit]:hover {
 }
 /* Contact Form End */
 
-/* Call To Action Section Start */
-.call-to-action-section {
-    background:url('./call-to-action-bg.jpg');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover
-}
-.lets-talk-btn {
-    border:2px solid var(--text-color-light);
-    border-radius:3px
-}
-
-.lets-talk-btn:hover {
-    transform:scale(1.1)
-}
-/* Call to Action Section End */
-
 /* Contact Section Start */
 .contact {
     background: var(--navbar-bg);
