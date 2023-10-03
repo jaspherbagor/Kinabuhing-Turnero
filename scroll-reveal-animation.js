@@ -5,7 +5,7 @@ const sr = ScrollReveal ({
     reset:true
 });
 
-// Home Page Start
+// Home Page
 sr.reveal('.hero-text, .service-quality-text, .services-items-section h2, .clients-reviews-section h2', {origin:'top'});
 
 sr.reveal('.services-quality-items:nth-child(2), .services-items:nth-child(5), .carousel-item',{origin:'bottom'});
@@ -13,4 +13,13 @@ sr.reveal('.services-quality-items:nth-child(2), .services-items:nth-child(5), .
 sr.reveal('.services-quality-items:nth-child(1), .services-items:nth-child(1), .services-items:nth-child(3), .contact-info-left', {origin:'left'});
 
 sr.reveal('.services-quality-items:nth-child(3), .services-items:nth-child(2), .services-items:nth-child(4), .contact-map-right', {origin:'right'});
-// Home Page End
+
+// About Us Page
+sr.reveal('', {origin:'top'});
+
+sr.reveal('', {origin:'bottom'});
+
+sr.reveal('', {origin:'left'});
+
+sr.reveal('', {origin:'right'})
+
