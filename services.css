@@ -36,6 +36,11 @@ p {
     line-height: 30px;
 }
 
+html, body {
+    width:100%;
+    overflow-x:hidden
+}
+
 /* Header Start */
 .navbar {
     background:var(--navbar-bg)
