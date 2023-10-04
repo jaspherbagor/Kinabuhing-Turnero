@@ -89,7 +89,7 @@ textarea.message-text-area {
 
 button[type=submit] {
     background:var(--navbar-bg);
-    border-radius:3px;
+    border-radius:10px;
     border: 1.5px solid var(--primary-color);
 }
 
