@@ -108,16 +108,12 @@ button.contact-us-btn:hover {
     box-shadow:5px 5px 5px 5px var(--bg-semi-trans2);
 }
 
-button.see-more-btn {
-    background:var(--navbar-bg);
-    border-radius:3px;
-    border: 1.5px solid var(--primary-color);
+.see-more-btn {
+    outline: 2px solid var(--primary-color);
 }
 
-button.see-more-btn:hover {
-    background: var(--primary-color);
+.see-more-btn:hover {
     transform:scale(1.1);
-    border: 1.5px solid var(--navbar-bg);
 }
 .card-body {
     background: var(--primary-color);
@@ -149,8 +145,7 @@ button.see-more-btn:hover {
     background-size:cover
 }
 .lets-talk-btn {
-    border:2px solid var(--text-color-light);
-    border-radius:3px
+    outline:2px solid var(--text-color-light);
 }
 
 .lets-talk-btn:hover {
