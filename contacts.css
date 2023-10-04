@@ -118,8 +118,9 @@ button[type=submit]:hover {
 .footer-section {
     background:var(--footer-bg)
 }
-.footer-section p {
-    font-size:var(--footer-fs)
+
+.logo-img img {
+    /* height:55px */
 }
 /* Footer Section End */
 
