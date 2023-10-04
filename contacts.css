@@ -119,8 +119,8 @@ button[type=submit]:hover {
     background:var(--footer-bg)
 }
 
-.logo-img img {
-    /* height:55px */
+.navigation-items a:hover {
+    color:var(--primary-color);
 }
 /* Footer Section End */
 
