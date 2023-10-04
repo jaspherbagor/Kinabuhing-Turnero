@@ -176,8 +176,9 @@ button.see-more-btn:hover {
 .footer-section {
     background:var(--footer-bg)
 }
-.footer-section p {
-    font-size:var(--footer-fs)
+
+.navigation-items a:hover {
+    color:var(--primary-color) !important;
 }
 /* Footer Section End */
 
