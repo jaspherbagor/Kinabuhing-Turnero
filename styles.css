@@ -65,6 +65,14 @@ html, body {
 button.navbar-toggler {
     background:var(--primary-color)
 }
+
+.contact-us-btn {
+    outline:2px solid var(--primary-color);
+}
+
+.contact-us-btn:hover {
+    transform:scale(1.1);
+}
 /* Header End */
 
 /* Hero Section Start */
@@ -136,22 +144,6 @@ button.contact-us-btn:hover {
     font-size:80px;
 }
 /* Clients Reviews Section End */
-
-/* Call To Action Section Start */
-.call-to-action-section {
-    background:url('./call-to-action-bg.jpg');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover
-}
-.lets-talk-btn {
-    outline:2px solid var(--text-color-light);
-}
-
-.lets-talk-btn:hover {
-    transform:scale(1.1)
-}
-/* Call to Action Section End */
 
 /* Contact Section Start */
 .contact {
