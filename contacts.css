@@ -74,11 +74,11 @@ button.navbar-toggler {
 /* Contact Text Section End */
 
 /* Contact Form Start */
-input[type=text], input[type=email], input[type=tel], input[type=number] {
+input[type=text], input[type=email], input[type=tel], input[type=number], #type-of-service {
     height:50px
 }
 
-input[type=text], input[type=email], input[type=tel], input[type=number], textarea.message-text-area {
+input[type=text], input[type=email], input[type=tel], input[type=number], textarea.message-text-area, #type-of-service {
     /* border-radius:0px; */
     border:1px solid var(--text-color-dark)
 }
